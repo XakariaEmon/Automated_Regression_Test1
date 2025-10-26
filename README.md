@@ -1,5 +1,10 @@
 # 🎯 Playwright Automation: Automated Regression test
 
+![Playwright](https://img.shields.io/badge/Tested%20with-Playwright-45ba4b?logo=microsoft-edge&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow?logo=javascript)
+![Automation](https://img.shields.io/badge/Type-Automation%20Testing-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 This project automates a **complete login, content search, playback, and logout flow** for the [TubeonAI](https://web.tubeonai.com/) website using **Playwright**.  
 It verifies that a user can log in successfully, search for a YouTube video, play the audio, and log out — ensuring the core user journey works as expected.
 
@@ -29,8 +34,8 @@ It verifies that a user can log in successfully, search for a YouTube video, pla
 npm install
 npx playwright install
 npx playwright test tests/login.spec.js
-
-## 🧾 Sample Test Code
+```
+```## 🧾 Sample Test Code
 
 javascript
 import { test, expect } from '@playwright/test';
