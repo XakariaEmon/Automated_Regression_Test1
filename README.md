@@ -35,10 +35,10 @@ npm install
 npx playwright install
 npx playwright test tests/login.spec.js
 ```
-```## 🧾 Sample Test Code
+## 🧾 Sample Test Code
 
-javascript
-import { test, expect } from '@playwright/test';
+## javascript
+```import { test, expect } from '@playwright/test';
 
 test('Direct login to website', async ({ page }) => {
   // 1️⃣ Go directly to login page
